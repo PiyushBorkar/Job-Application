@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+.mainCont {
+  position: relative;
+}
+
+/* Styling for the text container */
+.text-container {
+  width: 30vw;
+  height: 50vh;
+  position: absolute;
+  top: 30vh;
+  left: 5vw;
+  color: aliceblue;
+}
+.text-container h1 {
+  font-size: 50px;
+  margin-left: 0;
+}
+.text-container h2 {
+  font-size: 50px;
+  margin-left: 0;
+}
+.text-container span {
+  margin-top: 20vh;
+  font-size: 20px;
+  font-weight: 200;
+  margin-left: 0;
+}
+.text-container button {
+  width: 7vw;
+  height: 7vh;
+}

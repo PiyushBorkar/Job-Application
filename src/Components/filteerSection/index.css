@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.typeOfEmp {
+  position: relative;
+  top: 10px;
+  padding: 10px;
+}
+
+.checkbox-wrapper,
+.radio-wrapper {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.checkbox-wrapper input,
+.radio-wrapper input {
+  position: relative;
+  left: -10px;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.salaryRange {
+  position: relative;
+  top: 5px;
+  padding: 10px;
+}

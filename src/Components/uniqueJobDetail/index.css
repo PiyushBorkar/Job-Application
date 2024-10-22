@@ -1,0 +1,187 @@
+/* General Container Styles */
+.job-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+}
+
+/* Job Card Styles */
+.job-card,
+.similar-job-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 25px;
+  margin-bottom: 25px;
+  width: 90%;
+  max-width: 900px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.job-card:hover,
+.similar-job-card:hover {
+  transform: scale(1.02);
+}
+
+/* Company Logo Styles */
+.company-logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Job Title and Details */
+.job-title {
+  font-size: 26px;
+  color: #333333;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.rating,
+.employment-type,
+.location,
+.package {
+  font-size: 16px;
+  color: #555555;
+  margin-top: 8px;
+}
+
+.package {
+  font-weight: bold;
+  color: #27ae60;
+}
+
+/* Company Website Link */
+.website-link {
+  color: #3498db;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 15px;
+  display: inline-block;
+  transition: color 0.2s ease-in;
+}
+
+.website-link:hover {
+  color: #1e6fa0;
+}
+
+/* Job Description, Skills, and Life at Company */
+.job-description,
+.skills-section,
+.life-at-company {
+  margin-top: 25px;
+}
+
+.job-description h3,
+.skills-section h3,
+.life-at-company h3 {
+  font-size: 20px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.skills-list li {
+  background-color: #f7f9fc;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skill-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.life-image {
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+/* Similar Jobs Section */
+.similar-jobs-section {
+  margin-top: 40px;
+  width: 90%;
+  max-width: 900px;
+}
+
+.similar-jobs-list {
+  list-style: none;
+  padding: 0;
+}
+
+.similar-job-card {
+  padding: 20px;
+  border-top: 1px solid #eee;
+  transition: background-color 0.3s;
+}
+
+.similar-job-card:hover {
+  background-color: #f9f9f9;
+}
+
+.similar-job-card h3 {
+  font-size: 22px;
+  color: #333333;
+}
+
+.similar-job-card p {
+  font-size: 14px;
+  color: #666666;
+  margin-top: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .job-card,
+  .similar-job-card {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .company-logo {
+    width: 70px;
+    height: 70px;
+  }
+
+  .job-title {
+    font-size: 22px;
+  }
+
+  .rating,
+  .employment-type,
+  .location,
+  .package {
+    font-size: 14px;
+  }
+
+  .website-link {
+    font-size: 14px;
+  }
+
+  .job-description h3,
+  .skills-section h3,
+  .life-at-company h3 {
+    font-size: 18px;
+  }
+
+  .similar-jobs-section {
+    width: 100%;
+  }
+}

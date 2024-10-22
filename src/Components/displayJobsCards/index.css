@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#link,
+#link a {
+  text-decoration: none !important;
+  color: inherit; /* Optional: to ensure the link color matches surrounding text */
+}
+
+.jobCard {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  height: 45vh;
+  background-color: rgb(78, 119, 150);
+  margin: 15px;
+  border-radius: 8px; /* Rounded corners for a smoother look */
+  transition: background-color 0.3s ease, transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.jobCard:hover {
+  background-color: rgb(8, 118, 201);
+  transform: scale(1.05); /* Slightly enlarges the card on hover */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow effect */
+}
+
+.logo-titleCont {
+  margin: 5px;
+  display: flex;
+}
+
+.companyLogo {
+  margin: 5px;
+  width: 90px;
+  height: 80px;
+}
+
+.locationCont {
+  position: absolute;
+  display: flex;
+  margin: 10px;
+}
+
+.locationCtc {
+  position: relative;
+  top: 110px;
+}
+
+#ctc {
+  position: relative;
+  left: 550px;
+}
+
+hr {
+  width: 100%;
+  border: 1px solid black;
+  margin: 50px 0;
+}
+
+.description {
+  position: relative;
+  top: -40px;
+}

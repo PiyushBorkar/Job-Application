@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+head,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.login-form {
+  position: relative;
+  top: 3vh;
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 40px;
+  background: linear-gradient(135deg, #6d5bba, #8d58bf);
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-label {
+  display: block;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  position: relative;
+  left: 1px;
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background-color: #f1f1f1;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+.input-field:focus,
+.input-field:hover {
+  border-color: #6d5bba;
+  background-color: #ffffff;
+  outline: none;
+}
+
+.input-helper-text {
+  color: #d1d1d1;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff4081;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #e53979;
+}
+
+.login-form:hover {
+  box-shadow: 0 12px 50px rgba(0, 0, 0, 0.4);
+}
